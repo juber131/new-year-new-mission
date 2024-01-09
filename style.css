@@ -437,6 +437,7 @@ h2 {
     background-repeat: no-repeat;
 
 
+
 }
 
 .section-seven-colum1 {
@@ -501,6 +502,7 @@ h2 {
     width: 100%;
     height: 609px;
     background: #070211;
+    margin-top: 100px;
 }
 
 .footer-container2 {
@@ -573,4 +575,8 @@ hr {
 .footer-container3 {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.insta {
+    margin-left: 20px;
 }
