@@ -8,8 +8,6 @@
     background-repeat: no-repeat;
     border-radius: 16px;
 
-
-
 }
 
 .container {
@@ -120,21 +118,27 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
+
 }
 
 .second-section-colum1 button {
     color: #FFF;
-    text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
     border: 0;
     background-color: transparent;
+    cursor: pointer;
+    transition: 0.8s;
 }
+
+.second-section-colum1 button:hover {
+    color: aquamarine;
+    background-color: #7b0fe1;
+}
+
 
 /*----third-section--*/
 .section3 {
@@ -172,14 +176,22 @@
     text-transform: capitalize;
 }
 
-.third-section button {
+.third-section .btn {
 
-    padding: 10px 25px;
+    padding: 10px 20px;
     border: 0;
     margin: 40px 40%;
     border-radius: 8px;
     background: #F00;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.8s;
+    color: #FFF;
+}
 
+.btn:hover {
+    color: #7b0fe1;
+    background-color: aquamarine;
 }
 
 /*----fourth-section--*/
@@ -453,18 +465,27 @@ h2 {
     margin-left: 500px;
     margin-top: 48px;
     height: 45px;
+    padding: 0 15px;
 }
 
 .section-seven-colum1 .section-seven-form .b {
     color: #FFF;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 600;
     text-transform: capitalize;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     height: 50px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transform: 0.8s;
+}
+
+.section-seven-colum1 .section-seven-form .b:hover {
+    color: aqua;
+    background-color: #7b0fe1;
 }
 
 /*----footer--*/
